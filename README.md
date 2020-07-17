@@ -1,2 +1,2 @@
-# AniFluid-Base
-Base for t.me/AniFluidBot, Feel free to use this
+I was gonna put lot of stuff here but me too lazy so only anilist.py will put other stuff soon
+
