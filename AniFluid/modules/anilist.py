@@ -1,3 +1,5 @@
+# module to get anime info by t.me/DragSama // find him on github :  https://github.com/DragSama 
+# dear bot owner, please DO NOT REMOVE THESE COMMENTS and respect the codeowners
 from telegram.ext.dispatcher import run_async
 from telegram.ext import CommandHandler, CallbackContext
 from telegram import Update, Bot
