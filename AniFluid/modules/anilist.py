@@ -1,7 +1,4 @@
 
-# module to get anime info by t.me/DragSama // find him on github :  https://github.com/DragSama
-# dear bot owner, please DO NOT REMOVE THESE COMMENTS and respect the codeowners
-=======
 # Copyright (C) 2020 DragSama. All rights reserved. Source code available under the AGPL.
 #
 # This file is part of AniFluidBot.
