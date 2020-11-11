@@ -17,7 +17,7 @@
 
 import glob
 import importlib
-from AniFluid import dispatcher, updater
+from AniFluid import dispatcher, updater, LOGGER
 
 files = glob.glob('AniFluid/modules/*.py')
 
@@ -26,7 +26,8 @@ for file in file:
 
 @run_async
 def start(update: Update, context: CallbackContext):
-    update.effective_message.reply_text("Hm?")
+    message = update.effective_message
+    message.reply_text("Hm?")
 
 
 def main():
