@@ -1,5 +1,22 @@
-# module to get anime info by t.me/DragSama // find him on github :  https://github.com/DragSama 
-# dear bot owner, please DO NOT REMOVE THESE COMMENTS and respect the codeowners
+# Copyright (C) 2020 DragSama. All rights reserved. Source code available under the AGPL.
+#
+# This file is part of AniFluidBot.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Uses Time Formatter from Uniborg: https://github.com/SpEcHiDe/UniBorg/blob/master/uniborg/utils.py
+
 from telegram.ext.dispatcher import run_async
 from telegram.ext import CommandHandler, CallbackContext
 from telegram import Update, Bot
@@ -24,7 +41,7 @@ def shorten(description, info = 'anilist.co'):
         )
 
 
-#time formatter from uniborg
+# Time formatter from Uniborg: https://github.com/SpEcHiDe/UniBorg/blob/master/uniborg/utils.py
 def t(milliseconds: int) -> str:
     """Inputs time in milliseconds, to get beautified time,
     as string"""
