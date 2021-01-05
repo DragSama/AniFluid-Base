@@ -1,4 +1,4 @@
-# Copyright (C) 2020 DragSama. All rights reserved. Source code available under the AGPL.
+# Copyright (C) 2020-2021 DragSama. All rights reserved. Source code available under the AGPL.
 #
 # This file is part of AniFluidBot.
 #
